@@ -13,4 +13,4 @@ model = BertForSequenceClassification.from_pretrained('/content/gdrive/My Drive/
 tree.write('gdrive/My Drive/Colab Notebooks/BioASQ/qp_demo.xml', pretty_print=True)
 
 3. Run:
-Run python code in Demo_Question_Processing.ipynb, it will use 'input.csv' as input, and give output 'qp_demo.xml' 
+Run python code in Demo_Question_Processing.ipynb, it uses 'input.csv' as input, and gives output 'qp_demo.xml' 
