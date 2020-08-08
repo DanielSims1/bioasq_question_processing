@@ -6,8 +6,6 @@ https://drive.google.com/drive/u/1/folders/1iv7ZXuLAPZGFGsxlgIm2Zi8NBEsvvliq
 
 2. Change path in line:
 
-jsonFile = open('/content/gdrive/My Drive/Colab Notebooks/BioASQ/training8b.json', 'r')
-
 test_data_path = '/content/gdrive/My Drive/Colab Notebooks/BioASQ/input.csv'
 
 model = BertForSequenceClassification.from_pretrained('/content/gdrive/My Drive/Colab Notebooks/BioASQ/Model/model 1/', cache_dir=None)
