@@ -1,4 +1,4 @@
-# bioasq_question_processing
+# Running steps
 
 1. Download pre-train model for question type classification:
 
