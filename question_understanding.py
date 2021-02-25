@@ -62,7 +62,8 @@ def feed_generator(encoded_tokens,attention_mask):
 # Returns a prediction ( query, snippets, features)
 def predict(model,data):
     model.eval()
-    #model.cuda()
+    if device == "cuda:0":
+        model.cuda()
     preds = []
     batch_count = 0
     for token_tensor, attention_mask in data:
